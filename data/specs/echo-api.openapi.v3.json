@@ -1,0 +1,566 @@
+{
+    "openapi": "3.0.1",
+    "info": {
+        "title": "echo-api",
+        "description": "Azure API Management sample API.",
+        "version": "1.0"
+    },
+    "servers": [
+        {
+            "url": "http://aztest.azure-api.net/echo"
+        },
+        {
+            "url": "https://aztest.azure-api.net/echo"
+        }
+    ],
+    "paths": {
+        "/resource1": {
+            "get": {
+                "tags": [
+                    "Action"
+                ],
+                "summary": "resource1",
+                "operationId": "resource1",
+                "responses": {}
+            }
+        },
+        "/resource2": {
+            "get": {
+                "tags": [
+                    "Action"
+                ],
+                "summary": "resource2",
+                "operationId": "resource2",
+                "responses": {}
+            }
+        },
+        "/resource3": {
+            "get": {
+                "tags": [
+                    "Action"
+                ],
+                "summary": "resource3",
+                "operationId": "resource3",
+                "responses": {}
+            }
+        },
+        "/resource4": {
+            "get": {
+                "tags": [
+                    "Action"
+                ],
+                "summary": "resource4",
+                "operationId": "resource4",
+                "responses": {}
+            }
+        },
+        "/resource5": {
+            "get": {
+                "tags": [
+                    "Action"
+                ],
+                "summary": "resource5",
+                "operationId": "resource5",
+                "responses": {}
+            }
+        },
+        "/resource6": {
+            "get": {
+                "tags": [
+                    "Action"
+                ],
+                "summary": "resource6",
+                "operationId": "resource6",
+                "responses": {}
+            }
+        },
+        "/resource7": {
+            "get": {
+                "tags": [
+                    "Action"
+                ],
+                "summary": "resource7",
+                "operationId": "resource7",
+                "responses": {}
+            }
+        },
+        "/resource8": {
+            "get": {
+                "tags": [
+                    "Action"
+                ],
+                "summary": "resource8",
+                "operationId": "resource8",
+                "responses": {}
+            }
+        },
+        "/resource9": {
+            "get": {
+                "tags": [
+                    "Action"
+                ],
+                "summary": "resource9",
+                "operationId": "resource9",
+                "responses": {}
+            }
+        },
+        "/resource10": {
+            "get": {
+                "tags": [
+                    "Action"
+                ],
+                "summary": "resource10",
+                "operationId": "resource10",
+                "responses": {}
+            }
+        },
+        "/resource11": {
+            "get": {
+                "tags": [
+                    "Action"
+                ],
+                "summary": "resource11",
+                "operationId": "resource11",
+                "responses": {}
+            }
+        },
+        "/resource12": {
+            "get": {
+                "tags": [
+                    "Action"
+                ],
+                "summary": "resource12",
+                "operationId": "resource12",
+                "responses": {}
+            }
+        },
+        "/resource13": {
+            "get": {
+                "tags": [
+                    "Action"
+                ],
+                "summary": "resource13",
+                "operationId": "resource13",
+                "responses": {}
+            }
+        },
+        "/resource14": {
+            "get": {
+                "tags": [
+                    "Action"
+                ],
+                "summary": "resource14",
+                "operationId": "resource14",
+                "responses": {}
+            }
+        },
+        "/resource15": {
+            "get": {
+                "tags": [
+                    "Action"
+                ],
+                "summary": "resource15",
+                "operationId": "resource15",
+                "responses": {}
+            }
+        },
+        "/resource16": {
+            "get": {
+                "tags": [
+                    "Action"
+                ],
+                "summary": "resource16",
+                "operationId": "resource16",
+                "responses": {}
+            }
+        },
+        "/resource17": {
+            "get": {
+                "tags": [
+                    "Action"
+                ],
+                "summary": "resource17",
+                "operationId": "resource17",
+                "responses": {}
+            }
+        },
+        "/resource18": {
+            "get": {
+                "tags": [
+                    "Action"
+                ],
+                "summary": "resource18",
+                "operationId": "resource18",
+                "responses": {}
+            }
+        },
+        "/resource19": {
+            "get": {
+                "tags": [
+                    "Action"
+                ],
+                "summary": "resource19",
+                "operationId": "resource19",
+                "responses": {}
+            }
+        },
+        "/resource20": {
+            "get": {
+                "tags": [
+                    "Action"
+                ],
+                "summary": "resource20",
+                "operationId": "resource20",
+                "responses": {}
+            }
+        },
+        "/resource21": {
+            "get": {
+                "tags": [
+                    "Action"
+                ],
+                "summary": "resource21",
+                "operationId": "resource21",
+                "responses": {}
+            }
+        },
+        "/resource22": {
+            "get": {
+                "tags": [
+                    "Action"
+                ],
+                "summary": "resource22",
+                "operationId": "resource22",
+                "responses": {}
+            }
+        },
+        "/resource23": {
+            "get": {
+                "tags": [
+                    "Action"
+                ],
+                "summary": "resource23",
+                "operationId": "resource23",
+                "responses": {}
+            }
+        },
+        "/resource24": {
+            "get": {
+                "tags": [
+                    "Action"
+                ],
+                "summary": "resource24",
+                "operationId": "resource24",
+                "responses": {}
+            }
+        },
+        "/resource25": {
+            "get": {
+                "tags": [
+                    "Action"
+                ],
+                "summary": "resource25",
+                "operationId": "resource25",
+                "responses": {}
+            }
+        },
+        "/another-resource1": {
+            "get": {
+                "tags": [
+                    "Alias"
+                ],
+                "summary": "another-resource111",
+                "description": "fdfdfd11",
+                "operationId": "another-resource1",
+                "parameters": [
+                    {
+                        "name": "param",
+                        "in": "query",
+                        "description": "fdfdfdfdfd",
+                        "required": true,
+                        "schema": {
+                            "type": ""
+                        }
+                    },
+                    {
+                        "name": "a",
+                        "in": "query",
+                        "schema": {
+                            "type": ""
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Custom response"
+                    }
+                }
+            }
+        },
+        "/another-resource2": {
+            "get": {
+                "tags": [
+                    "Alias"
+                ],
+                "summary": "another-resource2",
+                "operationId": "another-resource2",
+                "responses": {}
+            }
+        },
+        "/another-resource3": {
+            "get": {
+                "tags": [
+                    "Alias"
+                ],
+                "summary": "another-resource3",
+                "operationId": "another-resource3",
+                "responses": {}
+            }
+        },
+        "/another-resource4": {
+            "get": {
+                "tags": [
+                    "Alias"
+                ],
+                "summary": "another-resource4",
+                "operationId": "another-resource4",
+                "responses": {}
+            }
+        },
+        "/another-resource5": {
+            "get": {
+                "tags": [
+                    "Alias"
+                ],
+                "summary": "another-resource5",
+                "operationId": "another-resource5",
+                "responses": {}
+            }
+        },
+        "/another-resource6": {
+            "get": {
+                "tags": [
+                    "Alias"
+                ],
+                "summary": "another-resource6",
+                "operationId": "another-resource6",
+                "responses": {}
+            }
+        },
+        "/another-resource7": {
+            "get": {
+                "tags": [
+                    "Alias"
+                ],
+                "summary": "another-resource7",
+                "operationId": "another-resource7",
+                "responses": {}
+            }
+        },
+        "/another-resource8": {
+            "get": {
+                "tags": [
+                    "Alias"
+                ],
+                "summary": "another-resource8",
+                "operationId": "another-resource8",
+                "responses": {}
+            }
+        },
+        "/another-resource9": {
+            "get": {
+                "tags": [
+                    "Alias"
+                ],
+                "summary": "another-resource9",
+                "operationId": "another-resource9",
+                "responses": {}
+            }
+        },
+        "/another-resource10": {
+            "get": {
+                "tags": [
+                    "Alias"
+                ],
+                "summary": "another-resource10",
+                "operationId": "another-resource10",
+                "responses": {}
+            }
+        },
+        "/another-resource11": {
+            "get": {
+                "tags": [
+                    "Alias"
+                ],
+                "summary": "another-resource11",
+                "operationId": "another-resource11",
+                "responses": {}
+            }
+        },
+        "/another-resource12": {
+            "get": {
+                "tags": [
+                    "Alias"
+                ],
+                "summary": "another-resource12",
+                "operationId": "another-resource12",
+                "responses": {}
+            }
+        },
+        "/another-resource13": {
+            "get": {
+                "tags": [
+                    "Alias"
+                ],
+                "summary": "another-resource13",
+                "operationId": "another-resource13",
+                "responses": {}
+            }
+        },
+        "/another-resource14": {
+            "get": {
+                "tags": [
+                    "Alias"
+                ],
+                "summary": "another-resource14",
+                "operationId": "another-resource14",
+                "responses": {}
+            }
+        },
+        "/another-resource15": {
+            "get": {
+                "tags": [
+                    "Alias"
+                ],
+                "summary": "another-resource15",
+                "operationId": "another-resource15",
+                "responses": {}
+            }
+        },
+        "/another-resource16": {
+            "get": {
+                "tags": [
+                    "Alias"
+                ],
+                "summary": "another-resource16",
+                "operationId": "another-resource16",
+                "responses": {}
+            }
+        },
+        "/another-resource17": {
+            "get": {
+                "tags": [
+                    "Alias"
+                ],
+                "summary": "another-resource17",
+                "operationId": "another-resource17",
+                "responses": {}
+            }
+        },
+        "/another-resource18": {
+            "get": {
+                "tags": [
+                    "Alias"
+                ],
+                "summary": "another-resource18",
+                "operationId": "another-resource18",
+                "responses": {}
+            }
+        },
+        "/another-resource19": {
+            "get": {
+                "tags": [
+                    "Alias"
+                ],
+                "summary": "another-resource19",
+                "operationId": "another-resource19",
+                "responses": {}
+            }
+        },
+        "/another-resource20": {
+            "get": {
+                "tags": [
+                    "Alias"
+                ],
+                "summary": "another-resource20",
+                "operationId": "another-resource20",
+                "responses": {}
+            }
+        },
+        "/another-resource21": {
+            "get": {
+                "tags": [
+                    "Alias"
+                ],
+                "summary": "another-resource21",
+                "operationId": "another-resource21",
+                "responses": {}
+            }
+        },
+        "/another-resource22": {
+            "get": {
+                "tags": [
+                    "Alias"
+                ],
+                "summary": "another-resource22",
+                "operationId": "another-resource22",
+                "responses": {}
+            }
+        },
+        "/another-resource23": {
+            "get": {
+                "tags": [
+                    "Alias"
+                ],
+                "summary": "another-resource23",
+                "operationId": "another-resource23",
+                "responses": {}
+            }
+        },
+        "/another-resource24": {
+            "get": {
+                "tags": [
+                    "Alias"
+                ],
+                "summary": "another-resource24",
+                "operationId": "another-resource24",
+                "responses": {}
+            }
+        },
+        "/another-resource25": {
+            "get": {
+                "tags": [
+                    "Alias"
+                ],
+                "summary": "another-resource25",
+                "operationId": "another-resource25",
+                "responses": {}
+            }
+        }
+    },
+    "components": {
+        "securitySchemes": {
+            "apiKeyHeader": {
+                "type": "apiKey",
+                "name": "Ocp-Apim-Subscription-Key",
+                "in": "header"
+            },
+            "apiKeyQuery": {
+                "type": "apiKey",
+                "name": "subscription-key",
+                "in": "query"
+            }
+        }
+    },
+    "security": [
+        {
+            "apiKeyHeader": []
+        },
+        {
+            "apiKeyQuery": []
+        }
+    ],
+    "x-ms-export-notes": [
+        "The exported API contains schemas that aren't of content type 'application/vnd.oai.openapi.components+json', and are hence not exported as OpenAPI components."
+    ]
+}
