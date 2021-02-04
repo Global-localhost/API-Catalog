@@ -90,7 +90,12 @@
                 "[resourceId('Microsoft.Web/serverfarms', variables('hostingPlanName'))]"
             ],
             "properties": {
-                "serverFarmId": "[variables('hostingPlanName')]"
+                "serverFarmId": "[variables('hostingPlanName')]",
+                "defaultDocuments": ["index.html"],
+                "siteConfig": {
+                    "appCommandLine": "node ./dist/host/index.js",
+                    "linuxFxVersion": "NODE|lts"
+                }
             },
             "resources": [
                 {
